@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.index-body{
+    background-image: url("project image.jpg");
+    background-size: cover;
+    margin-bottom: 100px;
+    height: 1000px;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+
+ul li a{
+    text-decoration: none;
+    margin-left: 15px;
+    text-transform: uppercase;
+    color:black;
+    font-size: 11px;
+}
+
+.in_touch{
+    text-transform: uppercase;
+    border: 2px solid black;
+    padding: 10px 13px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+#paragraph{
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-bottom: 5px;
+    margin-top: -19px;
+    font-size: 10px;
+}
+
+#header_2{
+    font-size: 22px;
+}
+
+.select{
+    width: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.body-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 213px 50px;
+    line-height: 50px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.butt{
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 15px 32px;
+    opacity: 0.8;
+    margin-left: 50px;
+}
+
+.button_div{
+    text-align: center;
+}
+
+.body-div h2{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    font-size: 60px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.signupbody{
+    background-color:  #675cd3; ;
+}
+
+.keep-in{
+    display: flex;
+    justify-content: left;
+}
+
+.sign-up-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.sign-up-form h2{
+    margin-top: -24px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.textbox{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 52px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 353px;
+    border: none;
+    border-radius: 3px;
+    background-color:#e0e0e6;
+}
+
+form button{
+    border: none;
+    background-color:  #675cd3;
+    border-radius: 3px;
+    height: 68px;
+    width: 361px;
+    font-size: 15px;
+    color: white;
+    margin: 16px 0;
+}
+
+form{
+    width: 386px;
+    height: 300px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 3);
+    background: white;
+    padding: 79px 27px;
+    text-align: center;
+}
+
+::placeholder{
+    color: grey;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#home_page{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 13px;
+    background-color: #eee;
+    margin-left: 15px;
+    border-radius: 2px;
+    padding-left: 2px;
+    margin-top: 1px;
+  }
+
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }  
+
+  .container input:checked ~ .checkmark {
+    background-color:  #675cd3;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  
+.container .checkmark:after {
+    left: 4px;
+    top: 0px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .container p{
+      margin-left: -210px;
+      font-size: 14px;
+      margin-top: 5px;
+      font-weight: 500;
+      margin-bottom: 16px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .sign-btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
